@@ -1,4 +1,4 @@
-class DoHa < Formula
+class Doha < Formula
   # Update these values as needed as new versions are released
   current_version="1.0.16"
   # current_release="20190115004751"
@@ -13,7 +13,7 @@ class DoHa < Formula
   # `SSL_CERT_DIR` to appropriate values.
   depends_on "openssl" => :recommended
 
-  desc "The DoHa command line application"
+  desc "The Doha command line application"
   homepage "https://github.com/guskovd/doha"
   url "https://github.com/guskovd/doha/releases/download/v#{current_version}/doha_darwin_amd64"
   version current_version
