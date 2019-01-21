@@ -21,7 +21,7 @@ class Doha < Formula
   # sha256 current_sha256.downcase
 
   def install
-    bin.install "doha_darwin_amd64", "doha"
+    system "cp", "doha_darwin_amd64", "-o", bin/"doha"
   end
 
   test do
