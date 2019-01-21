@@ -21,6 +21,7 @@ class Doha < Formula
   # sha256 current_sha256.downcase
 
   def install
+    system "mkdir", "-p", bin
     system "cp", "doha_darwin_amd64", "#{bin}/doha"
     # prefix.install "doha_darwin_amd64", "doha"
   end
